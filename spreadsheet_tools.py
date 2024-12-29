@@ -7,15 +7,14 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# Autenticación
+# Configuración
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 SPREADSHEET_ID = os.getenv('DOC_ID')
 CREDS = 'credentials.json'
 
 creds = service_account.Credentials.from_service_account_file(CREDS, scopes=SCOPES)
 
-# Extraer información de una celda
-
+# Funciones
 def read_sheet(range_name):
     service = build('sheets', 'v4', credentials=creds)
     result = service.spreadsheets().values().get(
