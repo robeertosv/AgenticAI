@@ -10,6 +10,8 @@ Este documento servirá como blog de desarrollo de la herramienta, explicando ca
     - google-auth-oauthlib
     - google-auth-httplib2
     - google-api-python-client
+    - requests
+    - beautifulsoup4
 
 ## 29/12
 
