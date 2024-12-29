@@ -18,3 +18,4 @@ Este documento servirá como blog de desarrollo de la herramienta, explicando ca
     - Iniciar el proyecto
     - Conexión con Google Sheets
     - Poder leer/escribir desde/a Google Sheets (datos literales, fórmulas)
+    - Poder buscar en internet
