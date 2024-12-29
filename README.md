@@ -5,19 +5,8 @@
 ## Funcionalidades
 
     - Transformar prompts en fórmulas
-    - Interactuar con el documento a través de prompts
-    - Rellenar las celdas con datos obtenidos desde la web
-    - Rellener las celdas con datos propios de nuestra empresa
-    - Usar ese documento como Knowledge Base para RAG propio
-
-## Diseño de la solución
-
-    - Agente que pueda consultar la web, el documento o interactuar con la API de Sheets
-
-    - Google Apps Script (GAS)
-    - ChromaDB
-    - Embeddings Model
-    - LLMs
+    - Interactuar con el documento a través de prompts (Ej: Muestra en la celda A12 el promedio de la columna sueldos)
+    - Rellenar las celdas con datos obtenidos desde la web (Ej: Pon las 5 webs que salgan al buscar por noticias de IA)
 
 ## Restricciones (Reto)
 
